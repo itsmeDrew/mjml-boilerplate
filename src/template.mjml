@@ -1,0 +1,77 @@
+
+<mj-body>
+
+  <!-- Header -->
+  <mj-section>
+    <mj-column>
+      <mj-image src="assets/img/logo-dark.png" width="200px"/>
+    </mj-column>
+  </mj-section>
+
+  <!-- Image Header -->
+  <mj-section
+      background-url="http://lorempixel.com/600/350/"
+      background-size="cover"
+      background-repeat="no-repeat"
+      padding-top="100px"
+      padding-bottom="100px"
+      width="600">
+
+    <mj-column width="600">
+      <mj-text  align="center"
+          color="#fff"
+          font-size="40"
+          font-family="Helvetica Neue, Helvetica">
+        Weekly Wrap
+      </mj-text>
+      <mj-text  align="center"
+          color="#fff"
+          font-size="15"
+          font-family="Helvetica Neue, Helvetica">
+        February 12-19, 2016
+      </mj-text>
+      <mj-button font-family="Helvetica" background-color="#99cc33" color="white" href="http://www.itworks.com">
+        Call to action
+      </mj-button>
+    </mj-column>
+
+  </mj-section>
+
+
+  <!-- Banner -->
+  <mj-section background-color="#fcfcfc">
+    <mj-column width="100%">
+      <mj-text align="center" font-size="20" color="grey" font-family="Helvetica" font-weight="200">
+        Here is what you've missed
+      </mj-text>
+      <mj-divider
+          padding-top="0"
+          padding-bottom="0"
+          border-width="1px"
+          border-color="#f1f1f1"/>
+      <mj-text font-family="Helvetica">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quisquam, quae suscipit adipisci ducimus. Aspernatur, reiciendis! Tempore accusamus quo ad odit deserunt nemo consequuntur voluptates! Qui, dicta non culpa beatae?
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Editor -->
+  <mj-section>
+    <mj-column width="100%">
+      <mj-text font-size="20" color="rgb(165, 176, 184)" align="center">
+          What's new this week?
+        </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding-top="0">
+    <mj-column width="600">
+      <mj-image src="http://lorempixel.com/550/300/"/>
+      <mj-button font-family="Helvetica" background-color="#99cc33" color="white" href="http://www.itworks.com">
+        Call to action
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+
+</mj-body>
